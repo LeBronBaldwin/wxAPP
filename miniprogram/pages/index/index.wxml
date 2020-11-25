@@ -1,0 +1,10 @@
+
+<view>这是首页</view>
+<view class="container">
+<button  style="width:350rpx;height:350rpx" class="xzysys" bindtap="XZYS">
+  星座运势
+</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="HL">黄历</button>
+</view>
+<image src="https://imgchr.com/i/DaIgG6"></image>
+

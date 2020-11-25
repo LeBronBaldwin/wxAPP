@@ -1,0 +1,69 @@
+<view class="container">
+  <view class="bg-fff p-lr30 border-t">
+    <view class="ipt-wrap border-b flex ai-center">
+      <label for="" class="font14">星座</label>
+      <input type="text" class="ml40 flex1" placeholder="请输入星座" bindinput="input"></input>
+    </view>
+  </view>
+  <view class='list_box' wx:for='{{list}}' wx:key='this' wx:for-item='parentItem' wx:for-index='parentIndex' >
+<view class='list'>
+<view class='list_name_box' catchtap='listTap' data-parentindex='{{parentIndex}}'>
+<text class='list_item_name'>{{parentItem.listName}}</text>
+</view>
+<view class='list_item_box' wx:if='{{parentItem.show}}'>
+<view class='list_item' wx:for='{{parentItem.item}}' wx:key='this' catchtap='listItemTap' data-index='{{index}}'data-parentindex='{{parentIndex}}'>
+<view class='other_box' wx:if='{{parentItem.show}}'>
+<view class='other'>
+<text class='other_text'>{{item.content10}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content11}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content1}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content2}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content3}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content4}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content5}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content6}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content7}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content8}}</text>
+</view>
+<view class='other'>
+<text class='other_text'>{{item.content9}}</text>
+</view>
+</view>
+</view>
+</view>
+</view></view>
+<button bindtap="chaxun" type="primary">查询今日运势</button>
+<view wx:if='{{a}}'>
+<view>综合指数：{{all}}</view>
+<view>爱情指数：{{love}}</view>
+<view>健康指数：{{health}}</view>
+<view>工作指数：{{work}}</view>
+<view>财富指数：{{money}}</view>
+<view>速配星座：{{QFriend}}</view>
+<view>幸运数：{{number}}</view>
+<view>幸运色：{{color}}</view>
+<view>今日概述：{{summary}}</view>
+</view>
+
+</view>

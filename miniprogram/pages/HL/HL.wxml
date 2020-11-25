@@ -1,0 +1,19 @@
+<input type="text" class="ml40 flex1" placeholder='请输入要查询的日期 （默认为今日)' bindinput="input"></input>
+<view>查询格式为：XXXX-XX-XX</view>
+<button type="primary" bindtap="chaxun">点击查询</button>
+<view wx:for="{{result}}" wx:for-index="gregoriandate" wx:for-item="item">
+<view>公历日期：{{result[gregoriandate].gregoriandate}}</view>
+<view>农历日期：{{result[gregoriandate].lunardate}}</view>
+<view>节日：{{result[gregoriandate].lunar_festival}} {{result[gregoriandate].festival}}</view>
+<view>宜：{{yi}}</view>
+<view>忌：{{ji}}</view>
+<view>神位：{{result[gregoriandate].shenwei}}</view>
+<view>胎神：{{result[gregoriandate].taishen}}</view>
+<view>冲煞：{{chongsha}}</view>
+<view>岁煞：{{result[gregoriandate].suisha}}</view>
+<view>星宿：{{result[gregoriandate].xingsu}}</view>
+<view>彭祖百忌：{{baiji}}</view>
+<view>吉神：{{jishen}}</view>
+<view>凶神：{{xiongshen}}</view>
+</view>
+
