@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    tiaojian:false,
 city:'北京',
 city1:"",
 temperature:"",
@@ -13,7 +14,8 @@ info:"",
 wid:"",
 direct:"",
 power:"",
-aqi:""
+aqi:"",
+future:[],
   },
 huoqu:function(){
   var that=this
@@ -35,6 +37,7 @@ direct:res.data.result.realtime.direct,
 power:res.data.result.realtime.power,
 aqi:res.data.result.realtime.aqi,
 city1:res.data.result.city,
+future:res.data.result.future
     })
   }
 })
@@ -68,11 +71,24 @@ shuru(e){
   power:res.data.result.realtime.power,
   aqi:res.data.result.realtime.aqi,
   city1:res.data.result.city,
+  future:res.data.result.future
       })
     }
   })
   },
-
+W5:function(){
+  var that=this
+if(this.data.tiaojian==false){
+  that.setData({
+    tiaojian:true
+  })
+}else{
+  that.setData({
+    tiaojian:false
+  })
+}
+console.log(this.data.tiaojian)
+},
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
