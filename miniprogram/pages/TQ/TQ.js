@@ -6,6 +6,7 @@ Page({
    */
   data: {
 city:'北京',
+city1:"",
 temperature:"",
 humidity:"",
 info:"",
@@ -26,16 +27,50 @@ huoqu:function(){
   success:function(res){
     console.log(res.data)
     that.setData({
-      
+temperature:res.data.result.realtime.temperature,
+humidity:res.data.result.realtime.humidity,
+info:res.data.result.realtime.info,
+wid:res.data.result.realtime.wid,
+direct:res.data.result.realtime.direct,
+power:res.data.result.realtime.power,
+aqi:res.data.result.realtime.aqi,
+city1:res.data.result.city,
     })
   }
 })
 },
+shuru(e){
+  var city=e.detail.value
+  this.setData({
+    city:city
+  })
+      },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var that=this
+    wx.request({
+    url: 'http://apis.juhe.cn/simpleWeather/query',
+    method:'GET',
+    data:{
+      key:'8d0d8bad47b6053b0e9d1a53adf4e0c0',
+      city:this.data.city,
+    },
+    success:function(res){
+      console.log(res.data)
+      that.setData({
+  temperature:res.data.result.realtime.temperature,
+  humidity:res.data.result.realtime.humidity,
+  info:res.data.result.realtime.info,
+  wid:res.data.result.realtime.wid,
+  direct:res.data.result.realtime.direct,
+  power:res.data.result.realtime.power,
+  aqi:res.data.result.realtime.aqi,
+  city1:res.data.result.city,
+      })
+    }
+  })
   },
 
   /**
