@@ -1,0 +1,1 @@
+<button bindtap="huoqu">获取天气</button>

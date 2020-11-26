@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/HL/HL",
-    "pages/XZYS/XZYS"
+    "pages/XZYS/XZYS",
+    "pages/TQ/TQ"
    
 
   ],
