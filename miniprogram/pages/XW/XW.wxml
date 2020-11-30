@@ -1,0 +1,7 @@
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="SHXW">社会新闻</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="SHXW">国内新闻</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="SHXW">国际新闻</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="SHXW">体育新闻</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="SHXW">NBA新闻</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="SHXW">足球新闻</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="SHXW">科技新闻</button>

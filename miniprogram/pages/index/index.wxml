@@ -7,6 +7,7 @@
 <button style="width:400rpx;height:180rpx" class="hlys" bindtap="TQ">天气</button>
 <button style="width:400rpx;height:180rpx" class="hlys" bindtap="SS">宿舍温湿</button>
 <button style="width:400rpx;height:180rpx" class="hlys" bindtap="KXYK">开心一刻</button>
+<button style="width:400rpx;height:180rpx" class="hlys" bindtap="XW">新闻</button>
 </view>
 
 
