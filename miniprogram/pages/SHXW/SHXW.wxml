@@ -2,4 +2,5 @@
 <view wx:for="{{array}}" wx:for-index="title" wx:for-item="item">
   <view>{{array[title].title}}</view>
   <image style="width: 200px; height: 200px; background-color: #eeeeee;" src="{{array[title].picUrl}}"></image>
+  <view>{{array[title].url}}</view>
 </view>
