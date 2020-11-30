@@ -1,0 +1,6 @@
+<input type="text" class="ml40 flex1" placeholder='请输入要刷新的条数，默认为10条' bindinput="input"></input>
+<button bindtap="shuaxin">点我刷新</button>
+<view wx:for="{{array}}" wx:for-index="title" wx:for-item="item">
+  <view>{{array[title].title}}</view>
+  <view>{{array[title].content}}</view>
+</view>
