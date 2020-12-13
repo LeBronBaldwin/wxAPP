@@ -1,1 +1,4 @@
-/* pages/XW/XW.wxss */
+
+  .socialNews {
+    width: 100%;
+  }

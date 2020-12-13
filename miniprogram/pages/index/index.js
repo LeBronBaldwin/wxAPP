@@ -36,6 +36,11 @@ XW:function(){
     url: '/pages/XW/XW'
 })
 },
+KB:function(){
+  wx.navigateTo({
+    url: '/pages/KB/KB'
+})
+},
   /**
    * 生命周期函数--监听页面加载
    */
@@ -90,5 +95,6 @@ XW:function(){
    */
   onShareAppMessage: function () {
     
-  }
+  },
+
 })

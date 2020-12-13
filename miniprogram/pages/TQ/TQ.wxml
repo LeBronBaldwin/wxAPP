@@ -1,13 +1,13 @@
 <input type="text" bindinput="shuru" placeholder="请输入城市名（不要带市/县/乡...)"></input>
 <button bindtap="huoqu">获取天气</button>
-<view>今日天气</view>
+<view class="jrtq">今日天气</view>
 <view>城市：{{city1}}</view>
 <view>温度：{{temperature}}</view>
 <view>湿度：{{humidity}}</view>
 <view>天气状况：{{info}}</view>
 <view>风：{{power}}{{direct}}</view>
 <view>空气质量指数：{{aqi}}</view>
-<view bindtap="W5">点我查看未来五天天气</view>
+<view class="futureWeather" bindtap="W5">点我查看未来五天天气</view>
 <view wx:if="{{tiaojian}}"> 
 <view wx:for="{{future}}" wx:for-index="date" wx:for-item="item" wx:key="date">
   <view> 
@@ -22,5 +22,6 @@
   <view> 
     风：{{future[date].direct}}
   </view>
+  <view>____________________________________________________________</view>
 </view>
 </view>

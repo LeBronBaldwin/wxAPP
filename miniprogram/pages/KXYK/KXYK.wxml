@@ -3,4 +3,5 @@
 <view wx:for="{{array}}" wx:for-index="title" wx:for-item="item">
   <view>{{array[title].title}}</view>
   <view>{{array[title].content}}</view>
+  <view>_____________________________________________________________________________</view>
 </view>
