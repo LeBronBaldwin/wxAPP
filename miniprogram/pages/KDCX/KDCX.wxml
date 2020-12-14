@@ -1,0 +1,7 @@
+<input type="text" class="ml40 flex1 all" placeholder='请输入快递单号' bindinput="input"></input>
+<button type="primary" bindtap="chaxun">点击查询</button>
+<view wx:for="{{newslist}}" wx:for-index="time" wx:for-item="item" wx:key="time">
+<view>时间：{{newslist[time].time}}</view>
+<view>{{newslist[time].content}}</view>
+<view>——————————————————————————————————————</view>
+</view>

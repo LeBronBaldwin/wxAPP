@@ -1,0 +1,7 @@
+<input type="text" class="ml40 flex1 all" placeholder='请输入梦见的关键内容' bindinput="input"></input>
+<button type="primary" bindtap="chaxun">点击查询</button>
+<view wx:for="{{newslist}}" wx:for-index="id" wx:for-item="item" wx:key="id">
+<view>梦境内容：{{newslist[id].title}}</view>
+<view>周公妙语：{{newslist[id].list}}</view>
+<view>——————————————————————————————————————</view>
+</view>

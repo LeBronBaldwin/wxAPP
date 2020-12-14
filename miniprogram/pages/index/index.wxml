@@ -7,14 +7,19 @@
   黄历</button>
 <button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/tq111.png?sign=11377f27e22281a4dd18b90d18d267f8&t=1606736174)" class="tqys" bindtap="TQ">
   天气</button>
-<button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/ssws.jpg?sign=c07a6bdfe6cd2bff38db2ffe8d88e059&t=1606735917)" class="sswsys" bindtap="SS">
+<button style="width:400rpx;height:175rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/ssws.jpg?sign=c07a6bdfe6cd2bff38db2ffe8d88e059&t=1606735917)" class="sswsys" bindtap="SS">
   宿舍温湿</button>
 <button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/kxyk11111.png?sign=627426a2a2b0f4b807887dd33b9d28f4&t=1606738527)" class="kxykys" bindtap="KXYK">
 </button>
-<button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/xw11111.png?sign=fe71d8c2b18a91eab4f7bb45ef4146b2&t=1606738724)" class="xwys" bindtap="XW">
+<button style="width:400rpx;height:175rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/xw11111.png?sign=fe71d8c2b18a91eab4f7bb45ef4146b2&t=1606738724)" class="xwys" bindtap="XW">
   新闻</button>
-  <button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/kcb%20.jpg?sign=62154d911612682670a1cd4d5c4405fb&t=1607617452)" class="xwys" bindtap="KB">
+  <button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E5%BF%AB%E9%80%92.png?sign=c10314f57f58f3810943c41036646cb4&t=1607956536)" class="kdcxys" bindtap="KDCX">
+  快递查询</button>
+  <button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/kcb%20.jpg?sign=62154d911612682670a1cd4d5c4405fb&t=1607617452)" class="kbys" bindtap="KB">
   课表</button>
+  <button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E5%91%A8%E5%85%AC%E8%A7%A3%E6%A2%A6111111.png?sign=cf93074a00ae6cc7fc00e5376ab33d64&t=1607937538)" class="zgjmys" bindtap="ZGJM">
+  解梦</button>
+  
 </view>
 
 

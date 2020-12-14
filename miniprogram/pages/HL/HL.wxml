@@ -1,4 +1,4 @@
-<input type="text" class="ml40 flex1" placeholder='请输入要查询的日期 （默认为今日)' bindinput="input"></input>
+<input type="text" class="ml40 flex1 all" placeholder='请输入要查询的日期 （默认为今日)' bindinput="input"></input>
 <view>查询格式为：XXXX-XX-XX</view>
 <button type="primary" bindtap="chaxun">点击查询</button>
 <view wx:for="{{result}}" wx:for-index="gregoriandate" wx:for-item="item">

@@ -1,4 +1,4 @@
-<input type="text" bindinput="shuru" placeholder="请输入城市名（不要带市/县/乡...)"></input>
+<input type="text" class="all" bindinput="shuru" placeholder="请输入城市名（不要带市/县/乡...)"></input>
 <button bindtap="huoqu">获取天气</button>
 <view class="jrtq">今日天气</view>
 <view>城市：{{city1}}</view>
