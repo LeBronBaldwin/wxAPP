@@ -16,17 +16,43 @@
     "pages/KJXW/KJXW",
     "pages/KB/KB",
     "pages/ZGJM/ZGJM",
-    "pages/KDCX/KDCX"
-   
-
+    "pages/KDCX/KDCX",
+    "pages/weather/weather",
+    "pages/happy/happy"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#90EE90",
     "navigationBarTitleText": "一切为了卷",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#66CDAA",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/study2.png",
+        "selectedIconPath": "images/study.png",
+        "text": "study"
+      },
+      {
+        "pagePath": "pages/KB/KB",
+        "iconPath":"images/kcb .png",
+        "selectedIconPath":"images/kcb .png",
+        "text": "timetable"
+      },
+      {
+        "pagePath": "pages/happy/happy",
+        "iconPath": "images/happy2.png",
+        "selectedIconPath": "images/happy.png",
+        "text": "happy"
+      }
+    ]
+  }
 }

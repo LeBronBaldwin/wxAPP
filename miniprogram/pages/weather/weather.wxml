@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<image src="https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E6%91%84%E5%9B%BE%E7%BD%91_500343889_wx_%E5%9F%8E%E5%B8%82%E9%A3%8E%E5%85%89%EF%BC%88%E9%9D%9E%E4%BC%81%E4%B8%9A%E5%95%86%E7%94%A8%EF%BC%89.jpg?sign=7ec3bef1d79110ee07cba3805b2eb9e7&t=1608011392" class="bg"></image>
+<view class="container">
+  <view class="nowWeather">
+    <view class="city w">{{city}} {{district}}</view>
+    <view class="road w">{{street}}</view>
+    <view class="temp w b">{{tmp}}°</view>
+    <view class="weather w">{{txt}} | 空气 {{qlty}}</view>
+  </view>
+ 
+  <view class="weahterDetail">
+    <view class="">
+      <view class="w center">{{dir}}</view>
+      <view wx:if="{{sc == '微风'}}" class="w b center f50">微风</view>
+      <view wx:else class="w b center f50">{{sc}}级</view>
+    </view>
+    <view class="l"></view>
+    <view class="">
+      <view class="w center">相对湿度</view>
+      <view class="w b center f50">{{hum}}%</view>
+    </view>
+    <view class="l"></view>
+    <view class="">
+      <view class="w center">体感温度</view>
+      <view class="w b center f50">{{fl}}°</view>
+    </view>
+  </view>
+</view>
+<view wx:key="item" wx:for-items="{{daily_forecast}}" wx:for-index="i">
+  <view class="hor forcast">
+   <view class="day">{{day[i]}}</view>
+    <view class="hor">
+     <image class="img" src="../../images/icons/{{item.cond_code_d}}.png"></image>
+      <view class="center">{{item.cond_txt_d}}|{{qlty}}</view>
+    </view>
+    <view class="tmp">最低{{item.tmp_min}}°/ 最高{{item.tmp_max}}°</view>
+  </view>
+</view>
+<view class='notice-wrap' hidden='{{hideNotice}}'>
+  <image class="img" style="position:absolute;" src="https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E6%91%84%E5%9B%BE%E7%BD%91_401495941_%E7%BB%BF%E8%89%B2%E5%96%87%E5%8F%AD%EF%BC%88%E9%9D%9E%E4%BC%81%E4%B8%9A%E5%95%86%E7%94%A8%EF%BC%89.png?sign=88840959f31a6659b9963b80a16adc5a&t=1608011462"></image>
+　　<view class='tongzhitext'>
+　　　　<text class="tongzhi-text">{{notice}}</text>
+　　</view>
+　　<!--<view bindtap='switchNotice' class="closeView">x</view>-->
+</view>

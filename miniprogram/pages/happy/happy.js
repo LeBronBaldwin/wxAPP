@@ -18,7 +18,7 @@ XZYS:function(){
 },
 TQ:function(){
   wx.navigateTo({
-    url: '/pages/weather/weather'
+    url: '/pages/TQ/TQ'
   })
 },
 SS:function(){
