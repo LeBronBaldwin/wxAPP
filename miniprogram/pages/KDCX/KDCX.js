@@ -26,7 +26,7 @@ newslist:[],
           success:function(res){
             console.log(res)
             that.setData({
-              newslist:res.data.data.info,
+              newslist:res.data.data.info.reverse(),
             })
           }
         })

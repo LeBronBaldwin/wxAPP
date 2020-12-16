@@ -25,7 +25,7 @@ Page({
     });
     var that=this
   wx.request({
-  url: 'http://api.tianapi.com/txapi/lunar/index',
+  url: 'https://api.tianapi.com/txapi/lunar/index',
   method:'GET',
   data:{
     key:'0baf3813d541a3fdcb85a55baaa05b9f',
@@ -39,7 +39,7 @@ Page({
   }
 })
 wx.request({
-  url: 'http://v.juhe.cn/laohuangli/d',
+  url: 'https://v.juhe.cn/laohuangli/d',
   method:'GET',
   data:{
     key:'aa4b8d6c840e2a9150bbfbacea1c78de',
@@ -61,7 +61,7 @@ wx.request({
   chaxun:function(){
     var that=this
     wx.request({
-    url: 'http://api.tianapi.com/txapi/lunar/index',
+    url: 'https://api.tianapi.com/txapi/lunar/index',
     method:'GET',
     data:{
       key:'0baf3813d541a3fdcb85a55baaa05b9f',
@@ -75,7 +75,7 @@ wx.request({
     }
   })
   wx.request({
-    url: 'http://v.juhe.cn/laohuangli/d',
+    url: 'https://v.juhe.cn/laohuangli/d',
     method:'GET',
     data:{
       key:'aa4b8d6c840e2a9150bbfbacea1c78de',

@@ -2,10 +2,10 @@
 <view class="container">
 <button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/tq111.png?sign=11377f27e22281a4dd18b90d18d267f8&t=1606736174)" class="tqys" bindtap="TQ">
   天气</button>
-<button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/ssws.jpg?sign=c07a6bdfe6cd2bff38db2ffe8d88e059&t=1606735917)" class="sswsys" bindtap="SS">
-  宿舍温湿</button>
-  <button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E5%BF%AB%E9%80%92.png?sign=3c8d38d9419706e09601ed28a7ddab39&t=1607955611)" class="kdcxys" bindtap="KDCX">
-  快递查询</button>
+<button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/ssws2.0.png?sign=b59fb0e6861b2abfe373ee59629c1fab&t=1608103856)" class="sswsys" bindtap="SS">
+  </button>
+  <button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E5%BF%AB%E9%80%922.0.png?sign=84e7e47179c634bf6b95a9b7dc43a859&t=1608103885)" class="kdcxys" bindtap="KDCX">
+  </button>
   <button style="width:400rpx;height:175rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/xw11111.png?sign=fe71d8c2b18a91eab4f7bb45ef4146b2&t=1606738724)" class="xwys" bindtap="XW">
   新闻</button>
 </view>

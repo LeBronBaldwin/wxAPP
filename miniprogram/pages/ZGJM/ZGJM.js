@@ -11,7 +11,7 @@ Page({
   chaxun:function(){
     var that=this
     wx.request({
-    url: 'http://v.juhe.cn/dream/query?key=21d2c40ecc468b9912572682fd9ce315&q=%E9%BB%84%E9%87%91',
+    url: 'https://v.juhe.cn/dream/query?key=21d2c40ecc468b9912572682fd9ce315&q=%E9%BB%84%E9%87%91',
     method:'GET',
     data:{
       key:'21d2c40ecc468b9912572682fd9ce315',

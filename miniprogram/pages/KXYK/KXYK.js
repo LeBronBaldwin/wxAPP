@@ -11,7 +11,7 @@ tiaoshu:'10'
 shuaxin:function(){
   var that=this
   wx.request({
-  url: 'http://api.tianapi.com/txapi/joke/index',
+  url: 'https://api.tianapi.com/txapi/joke/index',
   method:'GET',
   data:{
     key:'0baf3813d541a3fdcb85a55baaa05b9f',
@@ -39,7 +39,7 @@ input(e){
   onLoad: function (options) {
     var that=this
     wx.request({
-    url: 'http://api.tianapi.com/txapi/joke/index',
+    url: 'https://api.tianapi.com/txapi/joke/index',
     method:'GET',
     data:{
       key:'0baf3813d541a3fdcb85a55baaa05b9f',

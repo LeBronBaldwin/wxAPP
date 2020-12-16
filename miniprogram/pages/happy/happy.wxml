@@ -1,7 +1,6 @@
 <image class="image" src="https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E5%8C%97%E4%BA%AC%E9%82%AE%E7%94%B5%E5%A4%A7%E5%AD%A6.jpg?sign=1d72a4331ca254ddfafad59335b791f6&t=1607841293"></image>
 <view class="container">
-<button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/xzys.png?sign=95711a10e1de70611163228d9b24a281&t=1606728586)" class="xzysys" bindtap="XZYS" plain="true" >
-  星座运势
+<button style="width:350rpx;height:350rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/%E6%98%9F%E5%BA%A7%E8%BF%90%E5%8A%BF2.0.jpg?sign=f1aba414e0fec3d6cb6d1049ab3966a4&t=1608104586)" class="xzysys" bindtap="XZYS" plain="true" >
 </button>
 <button style="width:400rpx;height:180rpx;background-size:100% 100%;opacity:{{0.9}};background-image:url(https://7465-test-0ghplrav2bc7f24a-1303463266.tcb.qcloud.la/lhl.png?sign=535c8b21d271b2ac8455b2af6b4dbd98&t=1606734653)" class="hlys" bindtap="HL">
   黄历</button>
